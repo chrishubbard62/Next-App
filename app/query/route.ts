@@ -7,7 +7,7 @@ async function listInvoices() {
     SELECT invoices.amount, customers.name
     FROM invoices
     JOIN customers ON invoices.customer_id = customers.id
-    WHERE invoices.amount = 666;
+    WHERE invoices.amount BETWEEN 0 AND 1000000;
   `;
 
 	return data.rows;
