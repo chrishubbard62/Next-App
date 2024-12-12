@@ -15,4 +15,5 @@ CH8
 CH9
 CH10
 CH11
-CH12 1st half
+CH12
+CH13
